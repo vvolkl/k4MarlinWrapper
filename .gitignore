@@ -3,6 +3,8 @@ build*
 debug*
 install*
 
+*.ipynb
+
 # Files generated in runit
 runit/*.log
 runit/*.root
