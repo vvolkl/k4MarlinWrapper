@@ -15,7 +15,7 @@ if [ ! -f $TEST_DIR/inputFiles/ttbar1_edm4hep.root ]; then
   wget https://key4hep.web.cern.ch/testFiles/ddsimOutput/ttbar1_edm4hep.root -P $TEST_DIR/inputFiles/
 fi
 
-k4run $TEST_DIR/gaudi_opts/clicRec_e4h_input.py
+k4run_clicRec_e4h_input.py
 
 input_num_events=$(python $TEST_DIR/python/root_num_events.py $TEST_DIR/inputFiles/ttbar1_edm4hep.root)
 output_num_events=$(python $TEST_DIR/python/root_num_events.py my_output.root)

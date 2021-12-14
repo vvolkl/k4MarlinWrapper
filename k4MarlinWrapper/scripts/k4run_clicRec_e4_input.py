@@ -1,3 +1,5 @@
+#!/usr/bin/env k4run
+
 from Gaudi.Configuration import *
 
 from Configurables import LcioEvent, k4DataSvc, MarlinProcessorWrapper
