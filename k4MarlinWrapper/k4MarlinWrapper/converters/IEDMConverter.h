@@ -41,6 +41,10 @@
 #include <edm4hep/TrackerHitPlaneCollection.h>
 #include <edm4hep/Vertex.h>
 #include <edm4hep/VertexCollection.h>
+#include <edm4hep/MCRecoTrackParticleAssociation.h>
+#include <edm4hep/MCRecoTrackParticleAssociationCollection.h>
+#include <edm4hep/RecoParticleVertexAssociation.h>
+#include <edm4hep/RecoParticleVertexAssociationCollection.h>
 
 // LCIO
 #include <IMPL/CalorimeterHitImpl.h>
