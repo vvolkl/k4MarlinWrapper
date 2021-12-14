@@ -7,7 +7,7 @@ install*
 
 # Files generated in runit
 runit/*.log
-runit/*.root
+*.root
 
 # Prerequisites
 *.d
